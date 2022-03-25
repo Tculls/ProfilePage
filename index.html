@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav at the top -->
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <!--nav links-->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <!-- signout button -->
+            <button class="btn">Sign Out</button>
+        </div>
+        <!-- main content -->
+        <div class="main-content">
+            <!-- left column-->
+            <div class="column1">
+                <!-- Profile box -->
+                <div class="profile-aboutme">
+                    <div class="profile">
+                        <div class="top-bar">
+                            <img src="user-circle.png" alt="User Profile Image">
+                        </div>
+                        <h1>Jane Doe</h1>
+                    </div>
+                    <div class="info list">
+                        <p class="location"><img src="map-marker.png" alt="Profile City Location"> Seattle</p>
+                        <ul>
+                            <li>Developer |</li>
+                            <li>Engineer |</li>
+                            <li>Problem Solver</li>
+                        </ul>
+                    </div>
+                    <div class="bio">
+                        <p>Master of shadows and the internet!</p>
+                    </div>
+                    <div class="settings">
+                        <img src="gear.png" alt="Edit Profile button">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+                <!-- education box -->
+                <div class="education">
+                    <h2 class="header">Education</h2>
+                    <div class="educationinfo">
+                        <p class="academics">Coding Dojo - Full Stack Bootcamp</p>
+                        <p class="dates">Dec 2019 - Mar 2020</p>
+                        <p class="description">Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- right column -->
+            <div class="column2">
+                <!-- Pending connections box -->
+                <div class="pending-connections">
+                    <div class="connection-header">
+                        <h2 class="header"><button>2</button> Connection Requests</h2>
+                    </div>
+                    <div class="connectionreq-body">
+                        <p><img class="otheruser" src="user-circle.png" alt="profile image">
+                            Todd E <img src="accept-circle.png"> <img src="close-circle.png">
+                        </p>
+                        <p><img class="otheruser"src="user-circle.png" alt="profile image">Phil K <img src="accept-circle.png"> <img
+                                src="close-circle.png"></p>
+                    </div>
+                </div>
+                <!-- connections box -->
+                <div class="connections">
+                        <h2 class="header"><button> 500+ </button> Your Connections</h2>
+                    <div class="connection-body">
+                        <p><img class="otheruser"src="user-circle.png"> Adrien D</p>
+                        <p><img class="otheruser" src="user-circle.png"> Anne J</p>
+                        <p><img class="otheruser" src="user-circle.png"> Alayne T</p>
+                        <p><img class="otheruser" src="user-circle.png"> Arry Y</p>
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
